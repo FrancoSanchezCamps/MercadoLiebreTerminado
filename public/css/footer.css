@@ -1,0 +1,42 @@
+/* footer--------------------------------------------------------------------------- */
+footer{
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    
+}
+.seccion-footer{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    
+}
+.tarjeta{
+    color: var(--Celeste);
+    font-size: 2em;
+    margin: 10px;
+
+}
+.regalo{
+    color: var(--Celeste);
+    font-size: 2em;
+    margin: 10px;
+
+}
+.seguridad{
+    color: var(--Celeste);
+    font-size: 2em;
+    margin: 10px;
+}
+.copy{
+    color: var(--Gris-claro);
+    text-align: end;
+}
+ /* TABLET */
+@media (min-width: 460pc){
+
+}
+/* LAPTOP */
+@media (min-width: 768px){
+    
+}

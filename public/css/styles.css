@@ -1,0 +1,44 @@
+/**** General *****/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+p, li{
+    font-size: 12px;
+}
+
+li{
+    list-style: none;
+
+
+}
+:root {
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a;
+}
+button, input{
+    background-image: none;
+    background-color: white;
+    box-shadow: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+
+}
+
+
+/* header.----------------------------------------------------------------------------------- */
+ @import url(header.css);
+ @import url(main.css);
+ @import url(footer.css);
+
+
+

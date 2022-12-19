@@ -1,0 +1,161 @@
+
+/* main ------------------------------------------------------ 
+main{
+    
+    
+    
+    /********************************************
+                  Mobile 
+********************************************/
+
+main{
+    background-color: #ebebeb;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.ultima-vista{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ofertas{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+    hr{
+        text-align: center;
+        width: 350px;
+
+    }
+    article{
+       
+        font-size: 30px;
+        text-align: center;
+
+        
+    }
+
+    .camion-grande{
+        color: var(--Verde);
+      border-color: var(--Verde);
+      box-sizing: border-box;
+      font-size: 50px;
+
+    }
+    
+    section {
+        display: block;
+    }
+    
+    .cuerpo-parrafo-1{
+    font-size: 12px;
+    }
+    .cuerpo-parrafo-2{
+    font-size: 12px;
+    }
+    .cuerpo-parrafo-3{
+    font-size: 12px;
+    }
+.precio-1{
+font-size: 18px;
+}
+.descuento-1{
+font-size: 16px;
+color: var(--Verde);
+}
+.descripcion-1{
+font-size: 16px;
+}
+.precio-2{
+    font-size: 18px;
+    }
+    .descuento-2{
+    font-size: 16px;
+    color: var(--Verde);
+    }
+    .descripcion-2{
+    font-size: 16px;
+    }
+    .precio-3{
+        font-size: 18px;
+        }
+        .descuento-3{
+        font-size: 16px;
+        color: var(--Verde);
+        }
+        .descripcion-3{
+        font-size: 16px;
+        }
+        .precio-4{
+            font-size: 18px;
+            }
+            .descuento-4{
+            font-size: 16px;
+            color: var(--Verde);
+            }
+            .descripcion-4{
+            font-size: 16px;
+            }
+            .precio-5{
+                font-size: 18px;
+                }
+                .descuento-5{
+                font-size: 16px;
+                color: var(--Verde);
+                }
+                .descripcion-5{
+                font-size: 16px;
+                }
+                .precio-6{
+                    font-size: 18px;
+                    }
+                    .descuento-6{
+                    font-size: 16px;
+                    color: var(--Verde);
+                    }
+                    .descripcion-6{
+                    font-size: 16px;
+                    }
+                    .precio-7{
+                        font-size: 18px;
+                        }
+                        .descuento-7{
+                        font-size: 16px;
+                        color: var(--Verde);
+                        }
+                        .descripcion-7{
+                        font-size: 16px;
+                        }
+                        .precio-8{
+                            font-size: 18px;
+                            }
+                            .descuento-8{
+                            font-size: 16px;
+                            color: var(--Verde);
+                            }
+                            .descripcion-8{
+                            font-size: 16px;
+                            }
+
+.ofertas{
+    font-size: 24px;
+}
+ /* TABLET */
+ @media (min-width: 460pc){
+
+}
+/* LAPTOP */
+@media (min-width: 768px){
+    
+}
