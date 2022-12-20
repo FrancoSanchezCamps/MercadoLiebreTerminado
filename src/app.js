@@ -6,8 +6,9 @@ const path = require("path");
 
 app.use(express.static("public"));
 
-app.listen(3000, () => {
-    console.log("Sevidor corriendo en el puerto 3000")
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log("Sevidor corriendo en el puerto 3000" + port)
 }) ;
 app.get('/', (req, res) => {
     let htmlPath = path.resolve(__dirname, './views/home.html') 
